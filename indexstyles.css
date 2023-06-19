@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px;
+}
+
+.navbars {
+    display: flex;
+    justify-content: right;
+    position: sticky;
+    background-color: white;
+    top: 0px;
+}
+#logo {
+    position: absolute;
+    justify-content: left;
+    top: 2%;
+    left: 5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size:25px;
+}
+#logobold {
+    font-weight: 800;
+}
+.mainnav {
+    display: flex;
+    margin-right: 3em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.mainnav a {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    font-family:'Poppins', sans-serif ;
+    font-weight: 500;
+    font-size:16px;
+    color: black;
+    text-decoration: none;
+    padding-left:7em;
+}
+.mainnav a:hover {
+    color: #13858C;
+    font-weight: 800;
+}
+
+#firstpage {
+    display: flex;
+}
+.homecontent {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: auto;
+    gap: 4em;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.FGuitar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+.greetings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 7em;
+}
+#hi {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 96px;
+    margin: 0px;
+    height: 120px;
+}
+#myName {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0px;
+    margin-left: 5px;
+    margin-bottom: 9px;
+}
+#fgerald {
+    color: #13858C;
+}
+
+.abtme {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #13858C;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top:7px;
+    padding-bottom: 7px;
+    margin: 0px;
+    border: 2px solid #13858C;
+    border-radius: 25px;
+    width: 135px;
+}
+
+.abtme:hover {
+    color: white;
+    background-color: #13858C;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.backcolor {
+    background-color: rgb(11, 83, 146);
+}
