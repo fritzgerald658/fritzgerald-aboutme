@@ -122,7 +122,7 @@ a{
     background-color: rgb(11, 83, 146);
 }
 
-@media  (max-width: 320px) and (max-width : 480px) {
+@media (max-width : 520px) {
     #logo {
         position: absolute;
         justify-content: left;

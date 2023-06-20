@@ -89,7 +89,7 @@
     width: 225px;
 }
 
-@media (max-width:768px) {
+@media (max-width:520px) {
     #aboutmetitle {
         display: flex;
         justify-content: center;
