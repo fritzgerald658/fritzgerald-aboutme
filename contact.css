@@ -31,7 +31,7 @@ figcaption {
     margin-right: 20px;
 } 
 
-@media (max-width:480px) {
+@media  (min-width: 320px) and (max-width : 480px) {
 
     #fifthpage {
         background-color: aliceblue;
@@ -92,4 +92,5 @@ figcaption {
         left: 32.5%;
         top: 305%;
         text-align: center;
+}
 }
