@@ -88,3 +88,95 @@
     height: 168.75px;
     width: 225px;
 }
+
+@media (max-width:480px) {
+    #aboutmetitle {
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        margin: 3%;
+    }
+
+    #AboutMe{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1px;
+        margin-left: 5%;
+    }
+
+    #selfiefritz {
+        height: 225px;
+        width: 225px;
+        border-radius: 160px;
+        margin-left: 20%;
+    }
+    .description {
+        text-align: center;
+    }
+    #name {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #13858C;
+        margin: 1px;
+    }
+
+    #course {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: black;
+        width: 200px;
+        text-align: center;
+        margin-right: 25px;
+    }
+    
+    #introduction {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        font-size: 13px;
+        color: black;
+        text-align: center;
+        margin-right: 25px;
+    }
+
+    #thirdpage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #hobbiestitle {
+        display: flex;
+        justify-content: center;
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    .pichobbies {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3em;
+    }
+    #guitarPic {
+        height: 120px;
+        width: 195px;
+        margin-left: 28%;
+    }
+    
+    #htmlPic {
+        height: 100px;
+        width: 100px;
+    }
+    
+    #gamerPic{
+        height: 113.75px;
+        width: 125px;
+        margin-left: 37%;
+    }
+}
