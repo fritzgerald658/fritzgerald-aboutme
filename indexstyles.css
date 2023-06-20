@@ -121,3 +121,75 @@ a{
 .backcolor {
     background-color: rgb(11, 83, 146);
 }
+
+@media (max-width:480px) {
+    #logo {
+        position: absolute;
+        justify-content: left;
+        top: 2%;
+        left: 5%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size:18px;
+    }
+
+    .mainnav a {
+        display: none;
+    }
+
+    .homecontent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        margin: auto;
+        gap: 1px;
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+    .FGuitar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 270px;
+        width: 262px;
+    }
+
+    .greetings {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #hi {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        font-size: 35px;
+        margin: 0px;
+        text-align: left;
+        margin-left: 0%;
+        height:5%;
+    }
+    #myName {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        margin: 0px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+
+    .abtme {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 10px;
+        color: #13858C;
+        padding-left: 25px;
+        padding-right: 10px;
+        padding-top:2px;
+        padding-bottom: 2px;
+        margin: 0px;
+        border: 2px solid #13858C;
+        border-radius: 25px;
+        width: 90px;
+    }
+}
